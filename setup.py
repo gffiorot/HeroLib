@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="HeroTeams1103",
-    version="0.1.0",
+    version="0.1.2",
     description="Biblioteca de criação de heróis e times com fastapi.",
     long_description=long_description,
     long_description_content_type="text/markdown",

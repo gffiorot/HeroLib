@@ -1,4 +1,6 @@
-from HeroTeams1103.controller.generic import create_crud_router
+from fastapi import HTTPException
+from sqlmodel import Session, select
+from .generic import create_crud_router
 from HeroTeams1103.model.models import Team 
 from HeroTeams1103.model.dto import TeamCreate, TeamUpdate, TeamRead
 

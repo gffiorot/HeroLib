@@ -1,6 +1,6 @@
 from fastapi import HTTPException
 from sqlmodel import Session, select
-from HeroTeams1103.controller.generic import create_crud_router, Hooks
+from .generic import create_crud_router, Hooks
 from HeroTeams1103.model.models import Hero, Team
 from HeroTeams1103.model.dto import HeroCreate, HeroUpdate, HeroRead
 
