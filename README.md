@@ -52,7 +52,7 @@ pip install HeroTeams1103
 <!-- end list -->
 
 ```bash
-# Uvicorn roda o módulo main dentro da pasta 'app'
+# Uvicorn roda o módulo main dentro da pasta 'API'
 uvicorn API.main:app --reload
 ```
 
@@ -60,6 +60,6 @@ uvicorn API.main:app --reload
 
 -----
 
-## Endpoints (Pessoas & Endereços)
+## Endpoints (Heróis e Times)
 
   * **Documentação:** `http://127.0.0.1:8000/docs`
